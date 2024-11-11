@@ -1,0 +1,127 @@
+.account {
+  flex: 1;
+  height: 100%;
+  background-color: #f7f2fb;
+
+  @media (min-width: 450px) {
+    width: 100%;
+  }
+}
+.account-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-bottom-width: 1px;
+  border-bottom-color: #2d3648;
+}
+.account-title {
+  line-height: 30.75px;
+  text-align: center;
+  color: #2d3648;
+  margin-left: 20px;
+}
+.seperator {
+  height: 2px;
+  background-color: #2d3648;
+  width: "100%";
+}
+.upload-image {
+  border-width: 2px;
+  border-color: #2d3648;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.body-content {
+  padding: 15px;
+  @media (min-width: 450px) {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+.heading-m {
+  line-height: 30.75px;
+  color: #2d3648;
+}
+.body-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  color: #2d3648;
+  text-align: left;
+}
+.email-body {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35.2px;
+  color: #2d3648;
+  text-align: center;
+  @media (min-width: 450px) {
+    text-align: left;
+  }
+}
+.welcome-header {
+  text-align: left;
+}
+.upload-image-item {
+  border-width: 2px;
+  border-color: #2d3648;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  max-width: 270px;
+  width: 250px;
+  flex-shrink: 0;
+  margin: 10px;
+}
+.horizontal-list {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+.step-text {
+  margin-left: 10px;
+}
+.pagination {
+
+  display: none;
+  justify-content: center;
+  margin-top: 20px;
+  @media (min-width:470px) {
+    margin-top: 30px;
+  }
+}
+.footer {
+  align-self: baseline;
+  padding: 10px;
+  /* position: absolute; */
+  bottom: 0;
+  width: 95%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  gap: 20px;
+
+  @media (min-width:470px) {
+    justify-content: flex-end;
+    margin: 10px;
+    width: 98%;
+  }
+
+}
+.complete-profile {
+  /* background-color: #2d3648;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-left: 20; */
+}

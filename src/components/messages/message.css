@@ -1,0 +1,178 @@
+.avatar {
+  width: 64px !important;
+  height: 64px !important;
+}
+
+.message-header {
+  height: 100dvh;
+}
+
+.card-header {
+  display: flex;
+  margin-top: 10px;
+}
+
+.notification {
+  display: flex;
+  padding: 5px;
+  gap: 50px;
+  width: 100%;
+}
+
+.image-notification {
+  min-width: 40px;
+  /* height:60px !important; */
+  max-width: 65px;
+  border-radius: 50%;
+}
+.btn-conversation {
+  display: flex;
+  gap: 6px;
+}
+.typo-notification {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+.typo-Conversations {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.notification-hours {
+  display: none; /* Hide by default */
+}
+.Conversations {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 70px;
+  padding: 25px;
+}
+.chats {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.content-box {
+  height: calc(100% - 110px);
+}
+.content-tab {
+  height: 110%;
+  overflow: auto;
+}
+.company-tab {
+  height: 110%;
+  overflow: hidden;
+}
+.mobile-view-tabs {
+  display: none;
+}
+.web-view-tabs {
+  display: block;
+}
+.css-19kzrtu {
+  padding: 5px !important;
+  height: 100%;
+  overflow: auto;
+}
+.chat-boxes {
+  height: 100%;
+}
+.chats-details {
+  height: calc(100% - 140px);
+  overflow: auto;
+  animation: scroll-down 2s linear infinite;
+  padding: 10px;
+  background-image: url("../../assets/image/socialmedia.jpg");
+}
+.report-icon {
+  margin-left: auto;
+}
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+.message-block {
+  color: #abafb6;
+  background: #f8f9fc;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 0px 0px 10px 0px #0000001a;
+}
+@media (max-width: 767px) {
+  .chat-boxes {
+    height: 100%;
+  }
+  .mobile-view-tabs {
+    display: block;
+  }
+  .web-view-tabs {
+    display: none;
+  }
+  .content-box {
+    height: calc(100% - 110px);
+  }
+  .content-tab {
+    height: 100%;
+  }
+  .company-tab {
+    height: 100%;
+    overflow: hidden;
+  }
+  .web-hours {
+    display: none;
+  }
+  .notification {
+    padding: 5px !important;
+    display: flex;
+    gap: 20px;
+    height: 70px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .Conversations {
+    padding: 5px !important;
+    display: flex;
+    gap: 20px;
+    height: 82px;
+    align-items: center;
+  }
+  .notification-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .typo-notification {
+    /* margin-top:25px !important; */
+    display: block;
+  }
+  .typo-Conversations {
+    display: block;
+    width: 100%;
+  }
+  .image-notification {
+    min-width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .notification-hours {
+    display: block; /* Show in mobile view */
+  }
+  .chats-details {
+    background-color: #ecdef5;
+    height: calc(100% - 135px) !important;
+    overflow: auto;
+  }
+}

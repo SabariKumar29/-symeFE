@@ -1,0 +1,215 @@
+.company-offer-ctn {
+  position: relative;
+}
+
+.active-btn {
+  background-color: #e8def8 !important;
+}
+
+.c-offer-header {
+  margin: 5px 10px ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+/* .card-view {
+  height:calc(100dvh - 150px);
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: inherit;
+  padding: 5px 10px;
+  flex-wrap: wrap;
+  overflow: auto;
+} */
+
+.imageIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+
+
+.CardTitle {
+  flex-grow: 1;
+}
+
+.card-content {
+  gap: 5;
+}
+
+.list-view-ctn {
+  position: relative;
+}
+
+.photo-view-ctn {
+  position: relative;
+}
+
+span.badge {
+  font-weight: 700;
+}
+
+/* .btn {
+  white-space: nowrap;
+  text-wrap: nowrap;
+  width: fit-content;
+  padding: 10px 15px;
+} */
+
+/* .card-tag {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  width: 95%;
+  border-radius: 9px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+} */
+
+.css-1qn32-MuiButtonBase-root-MuiButton-root:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.card-ctn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+
+/* .offers-card-tab {
+  height: 513px;
+  overflow:hidden auto;
+} */
+.c-offers-Slider{
+  display: none;
+}
+.c-offers-scroll{
+  display: flex;
+  height: 320px;
+  width: 100%;
+  /* max-width: 1140px; */
+  border-radius: 12px;
+  margin: 6px;
+  align-items: center;
+  --swiper-navigation-color : white 
+  /* #65558f */
+}
+.swiperarrow{
+   --swiper-navigation-color : white 
+}
+
+
+.requestBtn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #65558f;
+  max-width: 948px;
+  border-radius: 15px;
+  border: 1px solid;
+  justify-content: space-between;
+  /* height: 64px; */
+  padding: 12px;
+  margin-bottom: 12px;
+
+}
+@media (max-width:768px) {
+  .c-offer-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .c-offers-Slider{
+    display: unset;
+  }
+  /* .filter-modal{
+    height: 100dvh;
+  } */
+
+  .card-view {
+    padding: 0;
+  }
+
+
+
+  .tab-view {
+    justify-content: center
+  }
+
+  .CardMedia {
+    grid-area: 1 / 1 / span 2;
+  }
+
+  .span2 {
+    grid-area: auto / auto / auto / span 2;
+    gap: 10px;
+
+  }
+
+  section.span2 {
+    gap: 10px;
+  }
+
+  .addIcon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .checkIcon-text {
+    /* display: none; */
+  }
+
+  button.checkIcon {
+    /* background-color: white; */
+    box-shadow: none;
+  }
+
+  .action-btn {
+    grid-area: 3 / 1 / auto / span 2;
+    width: 100%;
+  }
+
+  .card-view.btn {
+    width: 320px;
+    margin: 10px;
+  }
+  /* .offers-card-tab {
+    height: 456px;
+    padding: 5px !important;
+  } */
+}
+
+@media (max-width:1024px) {
+  .list-view-ctn {
+    flex-wrap: wrap !important;
+  }
+
+  button.SaveIcon {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+  }
+
+  .btn {
+    padding: auto;
+  }
+
+  .CardTitle {
+    font-size: 1.3rem !important;
+  }
+
+  .dueDate {
+    display: none !important;
+  }
+
+}

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Mulish";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f2fa;
+}
+
+code {
+  font-family: "Mulish", monospace;
+}
+.body-wrapper {
+  height: 100dvh;
+  width: 100%;
+
+  /* background-color:#E2CBE3 ; */
+
+  /* @media (min-width: 450px) {
+    max-width: 450px;
+    width: 100%;
+    max-height: 870px;
+    height: 100%;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 2px solid #7371fc;
+  } */
+}
+
+* {
+  box-sizing: border-box;
+}

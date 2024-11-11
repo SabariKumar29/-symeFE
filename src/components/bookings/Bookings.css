@@ -1,0 +1,57 @@
+.active-btn {
+  background-color: #e8def8 !important;
+}
+
+/* .card-view {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: fit-content;
+} */
+.card-booking-view {
+  margin: 5px;
+  display: flex;
+  gap: inherit;
+  flex-wrap: wrap;
+}
+
+.status-chip {
+  background-color: #2edb4b;
+}
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.booking-list {
+  overflow: auto;
+  height: calc(100% - 64px);
+}
+
+.mobile-view-tabs {
+  display: none;
+}
+
+.web-view-tabs {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .mobile-view-tabs {
+    display: block;
+  }
+
+  .web-view-tabs {
+    display: none;
+  }
+  .booking {
+  }
+  .card-booking-view {
+    margin: 5px;
+    display: flex;
+    gap: inherit;
+    flex-wrap: wrap;
+  }
+}

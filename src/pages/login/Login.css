@@ -1,0 +1,25 @@
+.login-title {
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 58.75px;
+  letter-spacing: -0.06em;
+  text-align: center;
+}
+
+.login-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 66%;
+}
+
+.login-input-field .MuiOutlinedInput-notchedOutline {
+  border-radius: 22px !important;
+  border-color: #272937 !important;
+}
+
+.login-input-field .MuiInputBase-root {
+  height: 47px;
+}

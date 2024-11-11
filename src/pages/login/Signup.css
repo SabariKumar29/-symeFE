@@ -1,0 +1,62 @@
+.signup {
+  flex: 1;
+  height: 100%;
+  background-color: white;
+  background-image: url("../../resources/Signin/background.png");
+  width: 100%;
+  background-size: cover; /* Makes sure the image covers the entire div */
+  background-position: center; /* Centers the image within the div */
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  @media (min-width: 550px) {
+    width: 100%;
+  }
+}
+.signup-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #2d3648;
+  width: 100%;
+  @media (max-width: 550px) {
+    justify-content: flex-end;
+  }
+}
+.login-img-content {
+  flex: 1;
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+.influencer-company-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.unselected-title {
+  color: #717d96;
+  border-style: solid;
+  border: transparent transparent 1px;
+  border-bottom-width: 3px;
+  border-bottom-color: #2d3648;
+}
+.selected-title {
+  border-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: #2d3648;
+}
+.unselected-header {
+  border-style: hidden;
+  border-bottom-width: 3px;
+  border-bottom-color: transparent;
+}
+.agreement-view {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

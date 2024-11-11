@@ -1,0 +1,64 @@
+.setting-panel{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.account-settings{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.notification-offer{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.setting-changes{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.setting-companies{
+    height: 64px !important;
+    margin-top:16px !important;
+}
+.location-icon{
+    width: 30%;
+}
+.accountalignment{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+.insta-account{
+    height: 75px !important;
+}
+.bio-basics{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+@media (max-width: 768px) {
+    .setting-stack-panel {
+        height:calc(100dvh - 70px) !important;
+        overflow: auto;
+    }
+    .account-settings{
+        display: flex !important;
+    }
+    .notification-offer{
+        display: flex !important;
+    }
+    .setting-changes{
+        display: flex !important;
+    }
+    .location-icon{
+        width: 90%;
+    }
+    .accountalignment{
+        display: block;
+    }
+    .bio-basics{
+        display: flex !important;
+    }
+}

@@ -1,0 +1,120 @@
+.landing-ctn {
+  /* margin: 10px; */
+}
+.header-ctn {
+  margin-top: 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.ctn-1 {
+  position: relative;
+  overflow: hidden;
+}
+.ctn-1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../../assets/image/landingPage01.png");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.section-1 {
+}
+.section-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.link-button {
+  background: none;
+  border: none;
+  color: #717d96;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  font-family: "Mulish";
+}
+
+.link-button:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.link-button:focus {
+  outline: none;
+  text-decoration: none;
+}
+.boxing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 8%;
+}
+.image {
+  width: 300px;
+  height: 200px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 17px;
+}
+a {
+  text-decoration: none !important;
+}
+Link {
+  margin: 0;
+}
+.sideNavbar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 12px 24px;
+}
+
+.footer-img-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .section2-box1 {
+    flex-wrap: wrap;
+  }
+  .section-2 {
+    display: none;
+  }
+  .footer-img-container {
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-ctn {
+    /* display: none !important; */
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-ctn-1 {
+    /* display: none !important; */
+  }
+}

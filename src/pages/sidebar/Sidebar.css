@@ -1,0 +1,95 @@
+.nav-header {
+  color: black;
+  font-weight: 600;
+}
+.toggle-bar {
+  display: flex !important;
+  font-weight: 900;
+  color: black;
+  justify-content: center !important;
+}
+.logo-img {
+  min-width: 60px !important;
+  height: 60px !important;
+}
+.right-nav {
+  background-color: aqua !important;
+}
+.side-list-color {
+  color: white;
+}
+
+.component-list {
+  color: white;
+  margin-top: 60px;
+  padding: 5px !important;
+}
+.icon-syme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.list-item-button {
+  min-height: 48px;
+  justify-content: initial;
+  padding-left: 2.5rem;
+}
+
+.list-item-button.inactive {
+  background-color: inherit;
+  border-radius: 100px;
+}
+
+.list-item-button.active {
+  background-color: #e8def8;
+  border-radius: 100px;
+}
+
+.list-item-button.active {
+  background-color: #e8def8;
+  border-radius: 100px;
+}
+
+.mobile-icons {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-color {
+    color: "white";
+  }
+  .mobile-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #65558fad;
+    padding: 10px 0;
+  }
+
+  .side-bar-for-web {
+    display: none;
+  }
+
+  .mobile-icons {
+    display: flex;
+  }
+}
+
+@media (max-width: 960px) {
+  .logo-img {
+    min-width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-img {
+    min-width: 40px !important;
+    height: 40px !important;
+  }
+}

@@ -1,0 +1,288 @@
+.card-ctn {
+  display: flex;
+}
+/* this is make sure the autocomplet is displayed above the dialog */
+.pac-container {
+  z-index: 99999 !important;
+}
+.CardMedia {
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.card-view {
+  /* padding: 5px; */
+  display: flex;
+  flex-direction: column;
+  gap: inherit;
+  /* flex-wrap: wrap; */
+  overflow: hidden auto;
+  height: calc(100dvh - 170px);
+
+  /* height:calc(100dvh - 150px); */
+  margin: 5px;
+  padding: 5px 10px;
+}
+.card-view-offer {
+  height: calc(100dvh - 150px);
+}
+
+.bg-color {
+  background-color: #f7f2fb;
+}
+
+.CompleteCard {
+  background-color: #f7f2fb;
+  cursor: pointer;
+  user-select: none;
+}
+.CompleteCard.card-active-btn {
+  background-color: #e8def8;
+}
+.card-view-NoHeader {
+  height: calc(100dvh - 78px);
+  margin: 5px;
+  /* display: flex; */
+  gap: inherit;
+  padding: 0 10px;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* max-height: 649px; */
+  overflow: hidden auto;
+  /* height: calc(100% - 64px); */
+  gap: inherit;
+}
+button .css-htszrh-MuiButton-startIcon {
+  margin: 0;
+}
+
+.card-tag {
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  /* top: 1.5%;
+  left: 5.5%;
+  width: 89%; */
+  top: 9px;
+  left: 19px;
+  /* max-width:320px ; */
+  /* width: 320px; */
+  width: 89%;
+  border-radius: 13px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.carousel .control-dots {
+  border-radius: 12px;
+}
+
+.c-offers-content {
+  /* height: calc(100% - 128px); */
+}
+.spinner {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 1.5;
+  z-index: 9999999999999;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.searchCtn {
+}
+/* Carousel */
+/* .carousel-root {
+  max-width: 320px;
+} */
+.c-offers-scroll1 {
+  display: flex;
+  height: 250px;
+  max-width: 250px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: 6px;
+  align-items: center;
+}
+.card-status {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.btn {
+  white-space: nowrap;
+  text-wrap: nowrap;
+  /* width: fit-content; */
+  padding: 10px 15px;
+}
+/* .status-btn-offer{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+} */
+.welCome-page {
+  /* display: flex;
+  height: 520px;
+  max-width: 320px;
+  border-radius: 12px;
+  object-fit: cover;
+  padding: 5px;
+  gap: 5px;
+  align-items: center; */
+}
+.welcome-page-img {
+  border-radius: 15px;
+}
+.img-ctn {
+  height: 400px;
+  max-width: 320px;
+  flex: 1 0 100%;
+  padding: 5px;
+  position: relative;
+}
+.syme-text {
+  position: absolute;
+  /* color: whitesmoke; */
+  /* background-color: #a5a0aa; */
+  min-height: 30px;
+  min-width: 284px;
+  border-radius: 100px;
+  text-align: center;
+  align-content: center;
+  top: 25px;
+  right: 12px;
+}
+.privacy-landing {
+  display: flex;
+  gap: 15px;
+}
+span svg {
+  margin-right: 5px !important;
+}
+.list-btn {
+  width: 180px;
+}
+.profileBtn {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+.profileBtnCtn {
+  width: 350px;
+}
+.textEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space:""; */
+}
+/* Preview */
+.previewCtn{
+  width:578px !important;
+}
+.c-offers-scroll.swiper-button-loc{
+  display:unset;
+}
+
+/* Photo view css */
+.photoViewContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 5px;
+}
+/* -------------------Filter */
+.filter-modal {
+  max-width: 500px;
+  height: auto;
+  overflow: auto;
+}
+
+.influencerListHeader {
+  display: flex;
+  gap: 10px;
+}
+.similarCtn {
+  overflow: auto;
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
+    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+  display: flex;
+  min-height: fit-content;
+  margin: 8px;
+  padding: 8px;
+}
+
+@media (max-width: 767px) {
+  .sign-up-logo {
+    height: 378px;
+  }
+  .carousel .slide img {
+    object-fit: unset;
+  }
+  .influencerListHeader {
+    display: grid;
+    grid-template-columns: calc(70% - 5px) calc(30% - 5px);
+  }
+
+  .searchCtn {
+    grid-area: 1 / span 2;
+  }
+
+  .viewCtn {
+    margin-left: auto;
+  }
+  .userName {
+    display: none;
+  }
+  section.list-view-ctn {
+    display: grid;
+    grid-template-columns: calc(40% - 2.5px) calc(60% - 2.5px);
+    gap: 5px;
+  }
+  .list-btn {
+    width: 100%;
+  }
+  .profileBtnCtn {
+    width: 100%;
+  }
+  .privacy-landing {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+  .card-status {
+    display: block;
+  }
+  .img-view-ctn {
+    justify-content: center;
+  }
+  .card-view {
+    padding: 5px;
+    /* flex-wrap: wrap; */
+    height: calc(100dvh - 200px);
+  }
+  .card-view-offer {
+    height: calc(100dvh - 220px);
+  }
+  .css-dpfe8q-MuiStack-root > .MuiStack-root > .MuiTextField-root {
+    min-width: auto !important  ;
+  }
+}
+
+.images-container {
+  width: 240px;
+}
+
+.images-container.images-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
